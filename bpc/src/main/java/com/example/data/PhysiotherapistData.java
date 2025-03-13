@@ -19,7 +19,10 @@ public class PhysiotherapistData {
         this.expertiseAreas = expertiseAreas;
         this.workingTimetable = workingTimetable;
     }
-
+    public void setWorkingTimetable(WorkingTimetable timetable) {
+        this.workingTimetable = timetable;  // ✅ Correct field name
+    }
+    
     public String getId() { return id; }
 
     public String getFullName() { return fullName; }
