@@ -1,0 +1,6 @@
+com\example\data\TimeSlot.class
+com\example\data\WorkingTimetable.class
+com\example\Main.class
+com\example\data\PhysiotherapistData.class
+com\example\service\DataLoaderService.class
+com\example\data\PatientData.class

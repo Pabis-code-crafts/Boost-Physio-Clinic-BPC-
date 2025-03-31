@@ -15,6 +15,14 @@ public class WorkingTimetable {
 
     @Override
     public String toString() {
-        return "WorkingTimetable{" + "schedule=" + schedule + '}';
+        if (schedule == null || schedule.isEmpty()) {
+            return "No schedule available.";
+        }
+
+        StringBuilder sb = new StringBuilder("Schedule:\n");
+        for (Map.Entry<String, TimeSlot> entry : schedule.entrySet()) {
+            sb.append(entry.getKey()).append(": ").append(entry.getValue()).append("\n");
+        }
+        return sb.toString();
     }
 }

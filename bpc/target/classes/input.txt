@@ -1,23 +1,23 @@
 # Patients
-Patient,John Doe,123 Street, City,123-456-7890
-Patient,Jane Smith,456 Avenue, City,987-654-3210
-Patient,Mark Wilson,789 Road, City,111-222-3333
+Patient,John Doe,123 Street, 123-456-7890
+Patient,Jane Smith,456 Avenue, 987-654-3210
+Patient,Mark Wilson,789 Road, 111-222-3333
 
 # Physiotherapists (with schedules)
-Physiotherapist,Dr. Smith,456 Avenue, City,987-654-3210,Physiotherapy,Rehabilitation
+Physiotherapist,Dr. Smith,456 Avenue,987-654-3210,Physiotherapy,Rehabilitation
 Schedule,Monday,09:00,17:00
 Schedule,Tuesday,10:00,16:00
 Schedule,Wednesday,09:00,17:00
 Schedule,Thursday,10:00,16:00
 Schedule,Friday,09:00,15:00
 
-Physiotherapist,Dr. Alice,123 Lane, City,222-333-4444,Osteopathy,Mobilisation
+Physiotherapist,Dr. Alice,123 Lane,222-333-4444,Osteopathy,Mobilisation
 Schedule,Monday,08:00,14:00
 Schedule,Tuesday,09:00,15:00
 Schedule,Thursday,10:00,18:00
 Schedule,Friday,08:00,12:00
 
-Physiotherapist,Dr. Bob,987 Blvd, City,555-666-7777,Massage,Acupuncture
+Physiotherapist,Dr. Bob,987 Blvd,555-666-7777,Massage,Acupuncture
 Schedule,Monday,12:00,18:00
 Schedule,Wednesday,10:00,16:00
 Schedule,Thursday,14:00,20:00
