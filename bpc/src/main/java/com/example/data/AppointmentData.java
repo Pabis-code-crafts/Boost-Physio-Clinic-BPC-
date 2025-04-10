@@ -3,7 +3,7 @@ package com.example.data;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class AppointmentData {
+public class  AppointmentData {
     private String patientId;
     private String physiotherapistId;
     private LocalDate date;

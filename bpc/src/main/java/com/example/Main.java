@@ -37,13 +37,13 @@ public class Main {
             System.out.print("Enter Patient Name: ");
             String name = scanner.nextLine();
 
-            System.out.print("Enter Patient Age: ");
-            String age = scanner.nextLine();
+            System.out.print("Enter Patient address: ");
+            String address = scanner.nextLine();
 
             System.out.print("Enter Patient Contact Number: ");
             String contactNumber = scanner.nextLine();
 
-            PatientData newPatient = new PatientData(name, age, contactNumber);
+            PatientData newPatient = new PatientData(name, address, contactNumber);
             patients.add(newPatient);
             System.out.println("\n✅ New patient added successfully!");
 
